@@ -1,0 +1,103 @@
+/*body {
+	background: rgb(204, 229, 255);
+	background-image:url('https://i.pinimg.com/736x/f3/a6/21/f3a6218d689bbe8fe7709175274e17f6.jpg');
+}*/
+
+body {
+	/* text-transform: capitalize; */
+	/* text-transform: lowercase; */
+	/* text-transform: uppercase; */
+	/* text-align: center; */
+	text-align: justify;
+	background: linear-gradient(to bottom, rgb(126, 246, 236), rgba(126, 246, 236, 0.4));
+	/*font-size: 2cm;*/
+	/* font-family: "Times New Roman", sans-serif; */
+	font-family: "Dyna Puff", cursive;
+}
+#title {
+	color:rgb(13, 7, 120);
+	font-size: 2.25em;
+	font-weight: 555;
+	font-family: 'Rubik Marker Hatch', cursive;
+
+
+}
+
+/* #title:hover{ 
+	background-size: 100% 100%;
+	background-position-y: right;
+	color:blue;
+}*/
+
+.para-text {
+	color:rgb(19, 7, 234);
+}
+
+h2 {
+	color:rgb(13, 6, 151);
+	background: rgb(255, 255, 255);
+}
+
+ul li{
+	color:rgb(4, 1, 69);
+}
+
+/*#link {
+	color:rgb(81, 72, 235);
+}*/
+
+#link:hover {
+	color:rgb(10, 3, 148);
+}
+
+.form-input {
+	color:rgb(13, 7, 120);
+}
+
+.submit-button {
+	color:blue;
+}
+
+#service-image {
+	height: 400px;
+	width: 70%;
+	background:url(../img/img-2.jpg);
+	background-repeat: no-repeat;
+	background-color: steelblue;
+	background-size: cover;
+}
+
+#linear-gradient {
+	height: 400px;
+	width: 70%;
+	background: linear-gradient(-130deg, rgb(241, 6, 96), rgba(241, 6, 96, 0.4));
+}
+
+#ratial-gradient {
+	height: 400px;
+	/*height:12pc;*/
+	width: 70%;
+	background:radial-gradient(circle, red, green, blue);
+}
+
+#link {
+	/* text-decoration: none; */
+	text-decoration:underline;
+	/* text-decoration: line-through; */
+	/* text-decoration: overline; */
+}
+
+#italicized {
+	/* font-style: italic; */
+	font-style:oblique;
+}
+
+#about-me-image {
+	height: 60;
+	width: 40%;
+	border: 2px dashed rgb(76, 186, 176);
+}
+
+
+
+
