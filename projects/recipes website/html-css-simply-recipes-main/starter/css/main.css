@@ -254,7 +254,7 @@ ul {
   width: 7rem;
   height: 0.25rem;
   margin: 0 auto;
-  margin-top: -1rem;
+  margin-top: -1rem;z
 }
 
 /*
@@ -418,10 +418,13 @@ Header
 ===============
 */
 
-.hero
+.hero 
 {
   height: 40vh;
-  background: url(/assets/main.jpeg) center/cover no-repeat;
+  background-image: url("../assets/main.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: var(--borderRadius);
   margin-bottom: 2rem;
   position: relative;

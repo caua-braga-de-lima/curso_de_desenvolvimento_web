@@ -1,4 +1,3 @@
-
 //declara a função para o efeito toggle:
 const getElement = (selector) => 
 {
@@ -19,7 +18,7 @@ const navBtnDOM = getElement('.nav-btn')
 //adiciona o evento ao botão de toggle que mostra os links uma vez clicado:
 navBtnDOM.addEventListener('click', () => 
 {
-  links.classList.toggle('show-links')
+  links.classList.toggle('.show-links')
 })
 
 // cofigura a atualização dinâmica da data no rodapé da página:
